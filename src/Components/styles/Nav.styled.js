@@ -7,7 +7,7 @@ export const Nav = styled.nav`
   justify-content: space-between;
   align-items: center;
   flex-wrap:wrap;
-  box-shadow: 3px 10px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.2);
   margin: 0 0 12px 0;
 
   ul li {

@@ -26,5 +26,6 @@ export const MainGallery = styled.div `
 
     img{
         width: 250px;
+        height: 380px;
     }
 `

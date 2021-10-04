@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const PeopleStyle = styled.div ` 
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     margin: 40px 0;
     img{
         width: 250px;
@@ -14,6 +15,7 @@ export const PeopleStyle = styled.div `
 export const SocialMedia = styled.div `
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     padding: 10px 0 0 0;
     width: 150px;
     margin: 0 auto;
@@ -38,5 +40,16 @@ export const HeaderPeople = styled.div `
     }
     h3{
         font-size: 40px;
+    }
+`
+export const Introduction = styled.div `
+    text-align: center;
+    h5{
+        color: ${({theme}) => theme.colors.primayColor};
+        font-size: 18px;
+    }
+    p{
+        font-weight: lighter;
+        font-size: 11px;
     }
 `
