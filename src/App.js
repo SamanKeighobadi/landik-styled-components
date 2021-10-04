@@ -3,6 +3,7 @@ import { ThemeProvider } from "styled-components";
 import Header from "./Components/common/Header";
 import Gallery from "./Components/Gallery";
 import MainPage from "./Components/MainPage";
+import People from "./Components/People";
 // styled component
 import { Container } from "./Components/styles/Container.styled";
 import GlobalStyle from "./Components/styles/Global";
@@ -25,6 +26,7 @@ const App = () => {
           <Header />
           <MainPage/>
           <Gallery />
+          <People />
         </Container>
       </>
     </ThemeProvider>
