@@ -9,6 +9,7 @@ export const Nav = styled.nav`
   flex-wrap:wrap;
   box-shadow: 3px 10px 3px rgba(0, 0, 0, 0.2);
   margin: 0 0 12px 0;
+
   ul li {
     display: inline-block;
     list-style: none;
@@ -20,6 +21,7 @@ export const Nav = styled.nav`
   }
   svg{
       font-size: 25px;
-      padding: 0 10px;
+      margin: 0 10px;
+      color: ${({theme}) => theme.colors.primayColor};
   }
 `;

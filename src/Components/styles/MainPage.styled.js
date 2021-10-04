@@ -6,6 +6,7 @@ export const MainStyle = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 30px;
 
   h1 {
     font-family: "Ephesis", cursive;

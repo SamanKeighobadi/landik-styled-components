@@ -1,6 +1,7 @@
 import React from "react";
 import { ThemeProvider } from "styled-components";
 import Header from "./Components/common/Header";
+import Gallery from "./Components/Gallery";
 import MainPage from "./Components/MainPage";
 // styled component
 import { Container } from "./Components/styles/Container.styled";
@@ -23,7 +24,7 @@ const App = () => {
         <Container>
           <Header />
           <MainPage/>
-          saman
+          <Gallery />
         </Container>
       </>
     </ThemeProvider>
