@@ -1,6 +1,6 @@
 import React from "react";
 import { GiGrapes } from "react-icons/gi";
-import { HeaderGallery, MainGallery } from "./styles/Gallery.styled.js";
+import { HeaderGallery, MainGallery} from "./styles/Gallery.styled.js";
 import { data } from "../data/gallery";
 
 const Gallery = () => {

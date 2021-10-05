@@ -4,6 +4,7 @@ import Header from "./Components/common/Header";
 import Gallery from "./Components/Gallery";
 import MainPage from "./Components/MainPage";
 import People from "./Components/People";
+import Footer from "./Components/common/Footer";
 // styled component
 import { Container } from "./Components/styles/Container.styled";
 import { ThemeProvider } from "styled-components";
@@ -28,6 +29,7 @@ const App = () => {
           <MainPage/>
           <Gallery />
           <People />
+          <Footer />
         </Container>
       </>
     </ThemeProvider>
